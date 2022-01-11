@@ -26,14 +26,14 @@ module.exports = {
             // "http://your.address.com:80",
         ],
         ws_reverse_url: [ //反向ws地址，可以添加多个url
-            // "ws://your.address.com:8080",
+            "ws://192.168.1.5:8091",
         ],
         ws_reverse_reconnect_interval: 3000, //反向ws断线重连间隔(毫秒)，设为负数直接不重连
         ws_reverse_reconnect_on_code_1000: true, //反向ws是否在关闭状态码为1000的时候重连
     },
 
     //每个账号的单独配置(用于覆盖通用配置)
-    123: {
+    1982686376: {
 
     },
 };
