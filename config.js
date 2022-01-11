@@ -5,7 +5,7 @@ module.exports = {
 
     //通用配置
     general: {
-        platform:           1,      //1:安卓手机 2:aPad 3:安卓手表 4:MacOS 5:iPad
+        platform:           5,      //1:安卓手机 2:aPad 3:安卓手表 4:MacOS 5:iPad
         debug:              false,  //开启debug
         use_cqhttp_notice:  true,   //是否使用cqhttp标准的notice事件格式
 
@@ -33,9 +33,9 @@ module.exports = {
     },
 
     //每个账号的单独配置(用于覆盖通用配置)
-    1982686376: {
+//     1982686376: {
 
-    },
+//     },
 };
 
 // 安全注意：
