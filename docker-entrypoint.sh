@@ -131,5 +131,6 @@ echo -e "=================== 启动完毕，如果第一次配置机器人，请
 
 
 crond -f >/dev/null 2>&1
+echo -ne '\n' | node main ${qq_number}
 exec "$@"
 
