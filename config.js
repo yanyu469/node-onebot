@@ -23,7 +23,7 @@ module.exports = {
         rate_limit_interval:500,        //使用_rate_limited后缀限速调用api的排队间隔时间(毫秒)
         event_filter:       "",         //json格式的事件过滤器文件路径
         post_url: [ //上报地址，可以添加多个url
-            // "http://your.address.com:80",
+            // "http://your.address.com:80 ",
         ],
         ws_reverse_url: [ //反向ws地址，可以添加多个url1,2
             "ws://192.168.1.5:8091/qq/receive",
