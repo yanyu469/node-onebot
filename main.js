@@ -8,7 +8,7 @@ const path = require("path");
 const fs = require("fs");
 
 try {
-    require("/config/config.js");
+    require("/config.js");
 } catch (e) {
     console.log(e);
     console.log(`
